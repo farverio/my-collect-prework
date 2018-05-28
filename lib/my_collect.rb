@@ -5,7 +5,6 @@ def my_collect(array)
     output.push(yield array[i])
     i += 1 
   end
-  puts output
   output
 end
 
