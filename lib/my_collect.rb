@@ -3,10 +3,9 @@ def my_collect(array)
   output = []
   while i < array.length 
     output.push(yield array[i])
-    puts output
     i += 1 
   end
-  
+  puts output
   output
 end
 
